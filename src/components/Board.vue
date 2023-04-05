@@ -1,7 +1,7 @@
 <template>
   <div class="container d-flex justify-content-center">
     <div>
-      <h2 v-if="winner" class="winner">Winner : {{ winner }} 🥳</h2>
+      <h2 v-if="winner" class="winner">Winner : {{ winner }} 🥳 hurrey</h2>
       <h2 v-else class="player">Players {{ player }}</h2>
       <button @click="reset" class="btn btn-clr mb-3">Reset</button>
       <div v-for="x in 3" :key="x" class="row">
